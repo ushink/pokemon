@@ -4,6 +4,7 @@ export const mockPokemonData = [
     name: "Pikachu",
     type: "Electric",
     abilities: ["Static", "Lightning Rod"],
+    fleeRate: 0.07,
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
   },
@@ -12,6 +13,7 @@ export const mockPokemonData = [
     name: "Charmander",
     type: "Fire",
     abilities: ["Blaze", "Solar Power"],
+    fleeRate: 0.1,
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
   },
@@ -20,6 +22,7 @@ export const mockPokemonData = [
     name: "Squirtle",
     type: "Water",
     abilities: ["Rain Dish", "Torrent"],
+    fleeRate: 0.05,
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
   },
@@ -28,6 +31,7 @@ export const mockPokemonData = [
     name: "Blastoise",
     type: "Water",
     abilities: ["Rain Dish", "Torrent"],
+    fleeRate: 0.08,
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
   },
@@ -36,6 +40,7 @@ export const mockPokemonData = [
     name: "Butterfree",
     type: "Bug/Flying",
     abilities: ["Compound Eyes", "Gale Wings"],
+    fleeRate: 0.033,
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
   },
